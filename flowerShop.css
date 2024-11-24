@@ -188,3 +188,36 @@
   font-weight: 400;
   line-height: 30px; /* 166.667% */
 }
+
+/** 'instagram' section skeleton **/
+.insta-container {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.insta-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.insta-item {
+  width: 342px;
+  height: 396px;
+}
+/** 'instagram' section ornamentation **/
+.insta-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.insta-description {
+  width: 594px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
