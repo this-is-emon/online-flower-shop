@@ -1,5 +1,7 @@
+/**** -- Common sections styling-- ****/
 * {
   margin: 0;
+  padding: 0;
 }
 .lato-regular {
   font-family: "Lato", sans-serif;
@@ -7,36 +9,12 @@
   font-weight: 500;
   font-style: normal;
 }
-
-/**** --'header' section styling-- ****/
-.header {
-  background: rgba(229, 84, 115, 0.1);
-}
-/* header skeleton */
-.header-container {
-  width: 1440px;
+.container {
+  width: 75%;
+  max-width: 1440px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
-.banner-container {
-  width: 700px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.header-container img {
-  margin-top: 50px;
-}
-/* header ornamentation */
-.banner-title {
-  color: #272727;
-  font-family: Lato;
-  font-size: 80px;
-  font-weight: 800;
-}
-.banner-description {
+p {
   color: rgba(39, 39, 39, 0.6);
   font-family: Lato;
   font-size: 18px;
@@ -49,12 +27,52 @@
   border-radius: 8px;
   padding: 20px 43px;
   background: #e55473;
-}
-.btn-txt {
+
+  /* button text */
   color: #fff;
   font-family: Lato;
   font-size: 20px;
   font-weight: 700;
+}
+
+/**** --'header' section styling-- ****/
+/* header skeleton */
+.banner {
+  /* See '.contianer' at "Common sections styling" */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-text {
+  /* width: 700px; */
+  /* width: 75%; */
+  max-width: 530px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.banner-img img {
+  /* margin-top: 50px;
+  width: 635px;
+  height: 800px; */
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* header ornamentation */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+.banner-description {
+  /* See '<p></p>' at "Common sections styling" */
+  width: 634px;
+  text-align: left;
 }
 
 /**** --'main' section styling-- ****/
