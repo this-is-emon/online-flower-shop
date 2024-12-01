@@ -16,12 +16,12 @@
 }
 p {
   color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
+  text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
 }
-.btn-primary {
+.btn {
   width: 200px;
   border: none;
   border-radius: 8px;
@@ -33,6 +33,11 @@ p {
   font-family: Lato;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.btn:hover {
+  background: #546ae5;
 }
 
 /**** --'header' section styling-- ****/
@@ -44,9 +49,7 @@ p {
   justify-content: space-between;
 }
 .banner-text {
-  /* width: 700px; */
-  /* width: 75%; */
-  max-width: 530px;
+  max-width: 700px;
   margin-bottom: 32px;
   display: flex;
   flex-direction: column;
