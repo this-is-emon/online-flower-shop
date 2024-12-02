@@ -39,6 +39,22 @@ p {
 .btn:hover {
   background: #546ae5;
 }
+.section-heading {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* Colors */
+.pink {
+  color: #e55473;
+}
+.white {
+  color: #fff;
+}
 
 /**** --'header' section styling-- ****/
 /* header skeleton */
@@ -81,7 +97,7 @@ header {
 /**** --'main' section styling-- ****/
 
 /** 'featured' section skeleton **/
-.feature {
+#feature {
   margin-top: 150px;
   margin-bottom: 130px;
 }
