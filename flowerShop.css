@@ -96,51 +96,51 @@ header {
 
 /**** --'main' section styling-- ****/
 
-/** 'featured' section skeleton **/
+/** 'featured' section styling **/
 #feature {
   margin-top: 150px;
   margin-bottom: 130px;
 }
-.feature-container {
-  width: 1440px;
-  margin: 0 auto;
+.feature-items {
+  /* See '.contianer' at "Common sections styling" */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 50px;
 }
-/* 'flower div' skeleton */
-.flower-items {
+/* 'flower div' styling */
+.flowers {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 25px;
 }
-.flower-item {
+.flower {
   display: flex;
   flex-direction: column;
   align-items: center; /* Horizontally center the items (optional) */
+  gap: 30px;
 }
-.f-item {
-  width: 460px;
+.flower-img {
+  width: 464px;
   height: 538px;
-  flex-shrink: 0;
   border-radius: 300px 300px 0px 0px;
-}
-.item1 {
-  background: url("./images/pngwing 6.png") no-repeat center/cover,
-    rgba(167, 33, 98, 0.15);
-  background-size: 310px 428px;
-}
 
-.item2 {
-  background: url("./images/pngwing 5.png") no-repeat center/cover,
-    rgba(5, 151, 160, 0.15);
-  background-size: 370px 370px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-end; /* Align at the bottom */
+  position: relative;
 }
-
-.item3 {
-  background: url("./images/pngwing 7.png") no-repeat center/cover,
-    rgba(71, 125, 17, 0.15);
-  background-size: 314px 471px;
+.flower-img img {
+  width: 314px;
+  height: 471px;
+}
+.flower-name {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
 }
 
 /* 'service div' skeleton */
@@ -172,13 +172,7 @@ header {
   font-weight: 400;
   line-height: 30px; /* 166.667% */
 }
-.flower-name {
-  color: #272727;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 35px; /* 145.833% */
-  text-decoration-line: underline;
-}
+
 .service-name {
   color: rgba(39, 39, 39, 0.8);
   font-size: 24px;
@@ -260,7 +254,7 @@ header {
 }
 
 /** 'latest-deals' section skeleton **/
-.latest-deals {
+#latest-deals {
   width: 1440px;
   height: 449px;
   margin: 130px auto;
@@ -310,14 +304,7 @@ header {
   align-items: center;
   justify-content: center;
 }
-.footer-title {
-  color: #e55473;
-  font-size: 48px;
-  font-weight: 800;
-}
-.shop {
-  color: #fff;
-}
+
 .footer-description {
   width: 625px;
   color: rgba(255, 255, 255, 0.9);
