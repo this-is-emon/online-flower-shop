@@ -143,9 +143,9 @@ header {
   text-decoration-line: underline;
 }
 
-/* 'service div' skeleton */
-.service-items {
-  width: 1440px;
+/* 'service section' styling */
+.service {
+  /* See '.contianer' at "Common sections styling" */
   height: 320px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
@@ -157,27 +157,11 @@ header {
 .s-item {
   text-align: center;
 }
-
-/** 'featured' section ornamentation **/
-.feature-title {
-  color: #272727;
-  font-size: 40px;
-  font-weight: 800;
-}
-.feature-description {
-  width: 594px;
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px; /* 166.667% */
-}
-
 .service-name {
   color: rgba(39, 39, 39, 0.8);
   font-size: 24px;
   font-weight: 600;
-  line-height: 35px; /* 145.833% */
+  line-height: 35px;
 }
 
 /** 'hot-deal' section skeleton **/
