@@ -207,34 +207,9 @@ header {
   align-items: center;
 }
 
-/** 'hot-deal' section ornamentation **/
-.hot-deal {
-  border-radius: 8px;
-  background: rgba(229, 84, 115, 0.05);
-}
-
-.hot-deal-title {
-  color: #272727;
-  font-size: 40px;
-  font-weight: 800;
-}
-.off {
-  color: #e55473;
-  font-size: 40px;
-  font-weight: 800;
-}
-.hot-deal-description {
-  width: 594px;
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px; /* 166.667% */
-}
-
-/** 'instagram' section skeleton **/
-.insta-container {
-  margin-top: 130px;
+/** 'instagram' section styling **/
+.insta-main {
+  margin-top: 128px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -246,7 +221,7 @@ header {
   justify-content: center;
   gap: 25px;
 }
-.insta-item {
+.insta-item-img {
   width: 342px;
   height: 396px;
 }
