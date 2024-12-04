@@ -58,6 +58,12 @@ p {
 .bg-light-pink {
   background: rgba(167, 33, 98, 0.15);
 }
+.bg-lighter-pink {
+  background: rgba(229, 84, 115, 0.1);
+}
+.bg-lightest-pink {
+  background: rgba(229, 84, 115, 0.05);
+}
 .bg-light-paste {
   background: rgba(5, 151, 160, 0.15);
 }
@@ -183,7 +189,10 @@ header {
   line-height: 35px;
 }
 
-/** 'hot-deal' section skeleton **/
+#hot-deal {
+  margin-top: 128px;
+  border-radius: 8px;
+}
 .hot-deal-container {
   padding: 100px 400px;
   display: flex;
